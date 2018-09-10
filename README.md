@@ -22,7 +22,15 @@ int a[][]=new int[m][n];
 int i,j,temp=0,count=0,rowno=0;
 temp=count;
 System.out.println("enter the data");
-for(i=0;i<m;i++) {="" for(j="0;j&lt;n;j++)" {="" a[i][j]="in.nextInt();" }="" }="" system.out.println("the="" matrix="" is");="" for(i="0;i&lt;m;i++)" {="" for(j="0;j&lt;n;j++)" {="" system.out.print("\t"+a[i][j]);="" }="" system.out.println();="" }="" for(i="0;i&lt;m;i++)" {="" count="0;" for(j="0;j&lt;n;j++)" {="" if(a[i][j]="=0)" {="" count++;="" }="" if(count="">temp)
+for(i=0;i<m;i++)
+{="" for(j="0;j&lt;n;j++)"
+{="" a[i][j]="in.nextInt();" }="" }
+="" system.out.println("the="" matrix="" is");=
+"" for(i="0;i&lt;m;i++)" {="" for(j="0;j&lt;n;j++)" 
+{="" system.out.print("\t"+a[i][j]);="" }="" system.out.println();
+="" }="" for(i="0;i&lt;m;i++)" {="" count="0;" for(j="0;j&lt;n;j++)" 
+{="" if(a[i][j]="=0)" {="" count++;="" }=""
+if(count="">temp)
 	{
 	temp=count;
 	rowno=i;
